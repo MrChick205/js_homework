@@ -1,0 +1,19 @@
+table {
+    border-collapse: separate;
+    border-spacing: 2px 2px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+tfoot>tr>td{
+    background-color: antiquewhite;
+}

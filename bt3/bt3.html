@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bt3/bt3.css">
+    <script src="/bt3/bt3.js"></script>
+</head>
+
+<body>
+    <form name="form">
+        <div class="container">
+            <h1>Clothes</h1>
+            <p>
+                <label for="pn">
+                    Product name
+                    <input type="text" name="pn" id="pn">
+                </label>
+            </p>
+            <p>
+                <label for="qty">
+                    Quantity
+                    <input type="text" name="qty" id="qty">
+                </label>
+            </p>
+            <p>
+                <label for="up">
+                    Unit price
+                    <input type="text" name="up" id="up">
+                </label>
+            </p>
+            <p>
+                <button type="button" onclick="add()">Add</button>
+            </p>
+            <table id="tbl">
+                <thead>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Sub-total</th>
+                </thead>
+                <tbody id="table-body"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Total</td>
+                        <td id="total">0.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
